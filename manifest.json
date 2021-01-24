@@ -3,5 +3,22 @@
   "name": "ymdlink",
   "author": "hrfmmr",
   "version": "0.0.1",
-  "description": "yank current tab's title and link as markdown notation"
+  "description": "yank current tab's title and link as markdown notation",
+  "background": {
+    "scripts": [
+      "background_scripts/main.js"
+    ]
+  },
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "commands": {
+    "yank": {
+      "suggested_key": {
+        "default": "Alt+Shift+Y"
+      },
+      "description": "yank current tab's title and link as markdown notation"
+    }
+  }
 }
