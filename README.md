@@ -1,2 +1,2 @@
 # ymdlink
-A tiny Chrome extension for yank of [title](url) and copy to clipboard
+A tiny Chrome extension for yank of current tab's `[title](url)` and copy to clipboard
